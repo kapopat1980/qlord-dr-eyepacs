@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below (update when the paper is published)."
+title: "Q-LORD: quality-aware lesion-graph ordinal evidential network for diabetic retinopathy grading (EyePACS)"
+type: software
+authors:
+  - family-names: "Meva"
+    given-names: "Divyakant"
+    affiliation: "Faculty of Computer Applications, Marwadi University, Rajkot, Gujarat, India"
+repository-code: "https://github.com/<your-username>/qlord-dr-eyepacs"
+license: MIT
+date-released: "2026-11-24"

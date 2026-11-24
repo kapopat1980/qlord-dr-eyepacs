@@ -1,0 +1,139 @@
+8.3s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+8.3s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+8.3s 3 0.00s - to python to disable frozen modules.
+8.3s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+9.0s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+9.0s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+9.0s 7 0.00s - to python to disable frozen modules.
+9.0s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+34.7s 9 [ 0.01h] device: cuda | torch 2.11.0+cu130 | timm 1.0.30 | image size 512 | backbone efficientnet_b3
+35.7s 10 [ 0.01h] index: 35108 EyePACS images from /kaggle/input/datasets/tanlikesmath/diabetic-retinopathy-resized/resized_train_cropped/resized_train_cropped
+35.7s 11 [ 0.01h] prep: 35108 images
+140.9s 12 [ 0.04h]   preprocessed 2000/35108
+240.0s 13 [ 0.06h]   preprocessed 4000/35108
+339.7s 14 [ 0.09h]   preprocessed 6000/35108
+440.5s 15 [ 0.12h]   preprocessed 8000/35108
+540.7s 16 [ 0.15h]   preprocessed 10000/35108
+639.4s 17 [ 0.17h]   preprocessed 12000/35108
+739.4s 18 [ 0.20h]   preprocessed 14000/35108
+838.1s 19 [ 0.23h]   preprocessed 16000/35108
+937.5s 20 [ 0.26h]   preprocessed 18000/35108
+1037.9s 21 [ 0.29h]   preprocessed 20000/35108
+1139.8s 22 [ 0.31h]   preprocessed 22000/35108
+1237.6s 23 [ 0.34h]   preprocessed 24000/35108
+1335.4s 24 [ 0.37h]   preprocessed 26000/35108
+1434.4s 25 [ 0.40h]   preprocessed 28000/35108
+1532.2s 26 [ 0.42h]   preprocessed 30000/35108
+1631.2s 27 [ 0.45h]   preprocessed 32000/35108
+1730.5s 28 [ 0.48h]   preprocessed 34000/35108
+1800.1s 29 [ 0.50h] prep done. class counts: {0: 25802, 1: 2438, 2: 5288, 3: 872, 4: 708} | ungradable proxy: 3511 | test images: 3510
+1800.1s 30 [ 0.50h] qlord fold 0: train 21064 | val 10534 | test 3510 | {'spatial': 'graph', 'head': 'ord_evid', 'quality': True, 'consist': True, 'oversample': True}
+1800.6s 31 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+1800.6s 32 
+1800.6s 33 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+1892.9s 34 [ 0.52h] qlord f0 ep 1/28 (stage 1) | ord=0.433 evid=0.556 qual=0.311 abst=1.023 graph=0.031 attn=0.003 | val QWK 0.5453 acc 0.749 ECE 0.286 | 91s
+1985.7s 35 [ 0.55h] qlord f0 ep 2/28 (stage 1) | ord=0.385 evid=0.510 qual=0.262 abst=1.011 graph=0.019 attn=0.007 | val QWK 0.5925 acc 0.747 ECE 0.216 | 93s
+2079.8s 36 [ 0.57h] qlord f0 ep 3/28 (stage 1) | ord=0.372 evid=0.507 qual=0.242 abst=0.997 graph=0.015 attn=0.008 | val QWK 0.6194 acc 0.770 ECE 0.178 | 94s
+2393.3s 37 [ 0.66h] qlord f0 ep 4/28 (stage 2) | ord=0.406 evid=0.571 qual=0.244 abst=1.012 graph=0.038 attn=0.007 | val QWK 0.6698 acc 0.779 ECE 0.201 | 313s
+2704.0s 38 [ 0.75h] qlord f0 ep 5/28 (stage 2) | ord=0.335 evid=0.475 qual=0.219 abst=0.960 graph=0.016 attn=0.004 | val QWK 0.6751 acc 0.778 ECE 0.206 | 310s
+3014.2s 39 [ 0.83h] qlord f0 ep 6/28 (stage 2) | ord=0.316 evid=0.453 qual=0.194 abst=0.933 graph=0.014 attn=0.003 | val QWK 0.7534 acc 0.796 ECE 0.193 | 310s
+3325.2s 40 [ 0.92h] qlord f0 ep 7/28 (stage 2) | ord=0.310 evid=0.454 qual=0.165 abst=0.917 graph=0.013 attn=0.002 | val QWK 0.7264 acc 0.751 ECE 0.133 | 311s
+3635.7s 41 [ 1.01h] qlord f0 ep 8/28 (stage 2) | ord=0.295 evid=0.440 qual=0.163 abst=0.897 graph=0.010 attn=0.002 | val QWK 0.7572 acc 0.800 ECE 0.110 | 310s
+3946.5s 42 [ 1.09h] qlord f0 ep 9/28 (stage 2) | ord=0.280 evid=0.422 qual=0.167 abst=0.872 graph=0.010 attn=0.002 | val QWK 0.7686 acc 0.822 ECE 0.067 | 310s
+4256.8s 43 [ 1.18h] qlord f0 ep 10/28 (stage 2) | ord=0.280 evid=0.430 qual=0.159 abst=0.871 graph=0.009 attn=0.001 | val QWK 0.7777 acc 0.788 ECE 0.143 | 310s
+4567.7s 44 [ 1.27h] qlord f0 ep 11/28 (stage 2) | ord=0.258 evid=0.405 qual=0.138 abst=0.830 graph=0.008 attn=0.001 | val QWK 0.8050 acc 0.801 ECE 0.094 | 310s
+4879.2s 45 [ 1.35h] qlord f0 ep 12/28 (stage 2) | ord=0.257 evid=0.401 qual=0.139 abst=0.826 graph=0.006 attn=0.001 | val QWK 0.8020 acc 0.792 ECE 0.082 | 311s
+5190.0s 46 [ 1.44h] qlord f0 ep 13/28 (stage 2) | ord=0.238 evid=0.371 qual=0.145 abst=0.786 graph=0.007 attn=0.002 | val QWK 0.8005 acc 0.802 ECE 0.063 | 311s
+5500.3s 47 [ 1.53h] qlord f0 ep 14/28 (stage 2) | ord=0.240 evid=0.367 qual=0.120 abst=0.785 graph=0.005 attn=0.002 | val QWK 0.7980 acc 0.787 ECE 0.127 | 310s
+5810.8s 48 [ 1.61h] qlord f0 ep 15/28 (stage 2) | ord=0.225 evid=0.349 qual=0.121 abst=0.757 graph=0.007 attn=0.002 | val QWK 0.8092 acc 0.785 ECE 0.099 | 310s
+6121.8s 49 [ 1.70h] qlord f0 ep 16/28 (stage 2) | ord=0.214 evid=0.332 qual=0.104 abst=0.738 graph=0.006 attn=0.002 | val QWK 0.8036 acc 0.786 ECE 0.097 | 311s
+6431.8s 50 [ 1.78h] qlord f0 ep 17/28 (stage 2) | ord=0.213 evid=0.325 qual=0.108 abst=0.717 graph=0.006 attn=0.002 | val QWK 0.8166 acc 0.813 ECE 0.062 | 310s
+6741.7s 51 [ 1.87h] qlord f0 ep 18/28 (stage 2) | ord=0.204 evid=0.305 qual=0.088 abst=0.694 graph=0.006 attn=0.001 | val QWK 0.8169 acc 0.806 ECE 0.074 | 309s
+7053.3s 52 [ 1.96h] qlord f0 ep 19/28 (stage 2) | ord=0.194 evid=0.287 qual=0.095 abst=0.659 graph=0.004 attn=0.001 | val QWK 0.8225 acc 0.820 ECE 0.059 | 311s
+7363.3s 53 [ 2.04h] qlord f0 ep 20/28 (stage 2) | ord=0.189 evid=0.277 qual=0.082 abst=0.641 graph=0.005 attn=0.002 | val QWK 0.8163 acc 0.814 ECE 0.059 | 310s
+7674.0s 54 [ 2.13h] qlord f0 ep 21/28 (stage 2) | ord=0.179 evid=0.256 qual=0.080 abst=0.606 graph=0.005 attn=0.002 | val QWK 0.8042 acc 0.792 ECE 0.074 | 310s
+7983.7s 55 [ 2.21h] qlord f0 ep 22/28 (stage 2) | ord=0.173 evid=0.246 qual=0.077 abst=0.594 graph=0.005 attn=0.002 | val QWK 0.8114 acc 0.825 ECE 0.059 | 309s
+8294.1s 56 [ 2.30h] qlord f0 ep 23/28 (stage 2) | ord=0.172 evid=0.241 qual=0.068 abst=0.582 graph=0.005 attn=0.002 | val QWK 0.8055 acc 0.784 ECE 0.081 | 310s
+8604.5s 57 [ 2.39h] qlord f0 ep 24/28 (stage 2) | ord=0.171 evid=0.242 qual=0.070 abst=0.584 graph=0.005 attn=0.002 | val QWK 0.8119 acc 0.800 ECE 0.071 | 310s
+8914.6s 58 [ 2.47h] qlord f0 ep 25/28 (stage 2) | ord=0.167 evid=0.233 qual=0.070 abst=0.563 graph=0.006 attn=0.001 | val QWK 0.8066 acc 0.805 ECE 0.070 | 310s
+9225.8s 59 [ 2.56h] qlord f0 ep 26/28 (stage 2) | ord=0.161 evid=0.219 qual=0.072 abst=0.543 graph=0.005 attn=0.002 | val QWK 0.8100 acc 0.808 ECE 0.073 | 311s
+9536.3s 60 [ 2.65h] qlord f0 ep 27/28 (stage 2) | ord=0.158 evid=0.218 qual=0.059 abst=0.537 graph=0.005 attn=0.002 | val QWK 0.8132 acc 0.819 ECE 0.062 | 310s
+9536.6s 61 [ 2.65h] qlord fold 0: early stopping (best epoch 19, QWK 0.8225)
+9809.2s 62 [ 2.72h] qlord fold 0 finished. best val QWK 0.8225 | test QWK 0.7953
+9809.3s 63 [ 2.72h] qlord fold 1: train 21064 | val 10534 | test 3510 | {'spatial': 'graph', 'head': 'ord_evid', 'quality': True, 'consist': True, 'oversample': True}
+9904.0s 64 [ 2.75h] qlord f1 ep 1/28 (stage 1) | ord=0.429 evid=0.549 qual=0.308 abst=1.025 graph=0.020 attn=0.003 | val QWK 0.5055 acc 0.755 ECE 0.245 | 94s
+9998.2s 65 [ 2.77h] qlord f1 ep 2/28 (stage 1) | ord=0.400 evid=0.521 qual=0.254 abst=1.009 graph=0.020 attn=0.005 | val QWK 0.5796 acc 0.759 ECE 0.227 | 94s
+10092.5s 66 [ 2.80h] qlord f1 ep 3/28 (stage 1) | ord=0.380 evid=0.516 qual=0.234 abst=1.003 graph=0.015 attn=0.005 | val QWK 0.5545 acc 0.708 ECE 0.200 | 94s
+10403.5s 67 [ 2.89h] qlord f1 ep 4/28 (stage 2) | ord=0.412 evid=0.575 qual=0.251 abst=1.017 graph=0.035 attn=0.006 | val QWK 0.6292 acc 0.762 ECE 0.136 | 311s
+10715.3s 68 [ 2.97h] qlord f1 ep 5/28 (stage 2) | ord=0.336 evid=0.475 qual=0.209 abst=0.961 graph=0.014 attn=0.005 | val QWK 0.6562 acc 0.772 ECE 0.166 | 311s
+11027.1s 69 [ 3.06h] qlord f1 ep 6/28 (stage 2) | ord=0.314 evid=0.449 qual=0.194 abst=0.922 graph=0.014 attn=0.004 | val QWK 0.6605 acc 0.786 ECE 0.067 | 311s
+11337.2s 70 [ 3.15h] qlord f1 ep 7/28 (stage 2) | ord=0.299 evid=0.430 qual=0.175 abst=0.897 graph=0.012 attn=0.003 | val QWK 0.7162 acc 0.757 ECE 0.218 | 310s
+11648.3s 71 [ 3.23h] qlord f1 ep 8/28 (stage 2) | ord=0.287 evid=0.426 qual=0.170 abst=0.880 graph=0.010 attn=0.003 | val QWK 0.7333 acc 0.753 ECE 0.118 | 311s
+11959.5s 72 [ 3.32h] qlord f1 ep 9/28 (stage 2) | ord=0.276 evid=0.416 qual=0.156 abst=0.855 graph=0.008 attn=0.002 | val QWK 0.7327 acc 0.795 ECE 0.089 | 311s
+12269.7s 73 [ 3.41h] qlord f1 ep 10/28 (stage 2) | ord=0.267 evid=0.413 qual=0.151 abst=0.850 graph=0.009 attn=0.003 | val QWK 0.7414 acc 0.789 ECE 0.159 | 310s
+12579.9s 74 [ 3.49h] qlord f1 ep 11/28 (stage 2) | ord=0.256 evid=0.406 qual=0.137 abst=0.827 graph=0.009 attn=0.003 | val QWK 0.7395 acc 0.787 ECE 0.116 | 310s
+12890.6s 75 [ 3.58h] qlord f1 ep 12/28 (stage 2) | ord=0.258 evid=0.398 qual=0.141 abst=0.819 graph=0.008 attn=0.002 | val QWK 0.7607 acc 0.808 ECE 0.078 | 310s
+13201.8s 76 [ 3.66h] qlord f1 ep 13/28 (stage 2) | ord=0.248 evid=0.390 qual=0.128 abst=0.809 graph=0.007 attn=0.002 | val QWK 0.7525 acc 0.802 ECE 0.087 | 311s
+13512.3s 77 [ 3.75h] qlord f1 ep 14/28 (stage 2) | ord=0.236 evid=0.370 qual=0.124 abst=0.782 graph=0.007 attn=0.002 | val QWK 0.7635 acc 0.814 ECE 0.080 | 310s
+13823.1s 78 [ 3.84h] qlord f1 ep 15/28 (stage 2) | ord=0.226 evid=0.354 qual=0.110 abst=0.765 graph=0.007 attn=0.002 | val QWK 0.7641 acc 0.817 ECE 0.068 | 310s
+14134.4s 79 [ 3.92h] qlord f1 ep 16/28 (stage 2) | ord=0.219 evid=0.334 qual=0.107 abst=0.730 graph=0.006 attn=0.003 | val QWK 0.7601 acc 0.805 ECE 0.040 | 311s
+14445.2s 80 [ 4.01h] qlord f1 ep 17/28 (stage 2) | ord=0.210 evid=0.319 qual=0.088 abst=0.714 graph=0.007 attn=0.002 | val QWK 0.7617 acc 0.790 ECE 0.096 | 310s
+14755.9s 81 [ 4.10h] qlord f1 ep 18/28 (stage 2) | ord=0.200 evid=0.303 qual=0.092 abst=0.686 graph=0.006 attn=0.003 | val QWK 0.7834 acc 0.806 ECE 0.087 | 310s
+15065.9s 82 [ 4.18h] qlord f1 ep 19/28 (stage 2) | ord=0.194 evid=0.292 qual=0.086 abst=0.666 graph=0.006 attn=0.003 | val QWK 0.7697 acc 0.791 ECE 0.065 | 310s
+15377.2s 83 [ 4.27h] qlord f1 ep 20/28 (stage 2) | ord=0.194 evid=0.280 qual=0.078 abst=0.650 graph=0.006 attn=0.003 | val QWK 0.7586 acc 0.790 ECE 0.068 | 311s
+15688.0s 84 [ 4.35h] qlord f1 ep 21/28 (stage 2) | ord=0.183 evid=0.263 qual=0.086 abst=0.618 graph=0.006 attn=0.003 | val QWK 0.7702 acc 0.806 ECE 0.048 | 311s
+15998.5s 85 [ 4.44h] qlord f1 ep 22/28 (stage 2) | ord=0.177 evid=0.255 qual=0.074 abst=0.605 graph=0.006 attn=0.003 | val QWK 0.7705 acc 0.803 ECE 0.056 | 310s
+16309.9s 86 [ 4.53h] qlord f1 ep 23/28 (stage 2) | ord=0.176 evid=0.251 qual=0.076 abst=0.594 graph=0.006 attn=0.003 | val QWK 0.7601 acc 0.790 ECE 0.059 | 311s
+16620.9s 87 [ 4.61h] qlord f1 ep 24/28 (stage 2) | ord=0.172 evid=0.245 qual=0.060 abst=0.589 graph=0.006 attn=0.003 | val QWK 0.7656 acc 0.795 ECE 0.059 | 311s
+16932.1s 88 [ 4.70h] qlord f1 ep 25/28 (stage 2) | ord=0.160 evid=0.225 qual=0.060 abst=0.549 graph=0.006 attn=0.003 | val QWK 0.7591 acc 0.781 ECE 0.057 | 311s
+17243.2s 89 [ 4.79h] qlord f1 ep 26/28 (stage 2) | ord=0.165 evid=0.231 qual=0.057 abst=0.556 graph=0.006 attn=0.003 | val QWK 0.7557 acc 0.778 ECE 0.065 | 311s
+17243.5s 90 [ 4.79h] qlord fold 1: early stopping (best epoch 18, QWK 0.7834)
+17517.3s 91 [ 4.86h] qlord fold 1 finished. best val QWK 0.7834 | test QWK 0.7987
+17517.5s 92 [ 4.86h] qlord fold 2: train 21068 | val 10530 | test 3510 | {'spatial': 'graph', 'head': 'ord_evid', 'quality': True, 'consist': True, 'oversample': True}
+17612.2s 93 [ 4.89h] qlord f2 ep 1/28 (stage 1) | ord=0.433 evid=0.559 qual=0.292 abst=1.025 graph=0.021 attn=0.002 | val QWK 0.5619 acc 0.760 ECE 0.234 | 94s
+17706.5s 94 [ 4.92h] qlord f2 ep 2/28 (stage 1) | ord=0.392 evid=0.515 qual=0.257 abst=1.006 graph=0.016 attn=0.006 | val QWK 0.5452 acc 0.703 ECE 0.231 | 94s
+17800.6s 95 [ 4.94h] qlord f2 ep 3/28 (stage 1) | ord=0.378 evid=0.513 qual=0.215 abst=0.991 graph=0.015 attn=0.005 | val QWK 0.5817 acc 0.741 ECE 0.168 | 94s
+18112.3s 96 [ 5.03h] qlord f2 ep 4/28 (stage 2) | ord=0.400 evid=0.566 qual=0.244 abst=1.009 graph=0.047 attn=0.009 | val QWK 0.5773 acc 0.733 ECE 0.146 | 311s
+18423.9s 97 [ 5.11h] qlord f2 ep 5/28 (stage 2) | ord=0.334 evid=0.476 qual=0.199 abst=0.954 graph=0.013 attn=0.004 | val QWK 0.6679 acc 0.782 ECE 0.200 | 311s
+18736.1s 98 [ 5.20h] qlord f2 ep 6/28 (stage 2) | ord=0.316 evid=0.449 qual=0.185 abst=0.920 graph=0.011 attn=0.003 | val QWK 0.7223 acc 0.777 ECE 0.105 | 312s
+19047.5s 99 [ 5.29h] qlord f2 ep 7/28 (stage 2) | ord=0.308 evid=0.448 qual=0.169 abst=0.912 graph=0.010 attn=0.002 | val QWK 0.7406 acc 0.783 ECE 0.200 | 311s
+19358.3s 100 [ 5.37h] qlord f2 ep 8/28 (stage 2) | ord=0.283 evid=0.417 qual=0.154 abst=0.869 graph=0.009 attn=0.002 | val QWK 0.6821 acc 0.717 ECE 0.125 | 310s
+19669.7s 101 [ 5.46h] qlord f2 ep 9/28 (stage 2) | ord=0.280 evid=0.415 qual=0.158 abst=0.861 graph=0.009 attn=0.003 | val QWK 0.7537 acc 0.803 ECE 0.094 | 311s
+19981.6s 102 [ 5.55h] qlord f2 ep 10/28 (stage 2) | ord=0.268 evid=0.409 qual=0.151 abst=0.847 graph=0.008 attn=0.003 | val QWK 0.7830 acc 0.819 ECE 0.115 | 311s
+20291.8s 103 [ 5.63h] qlord f2 ep 11/28 (stage 2) | ord=0.262 evid=0.398 qual=0.138 abst=0.816 graph=0.007 attn=0.002 | val QWK 0.7679 acc 0.804 ECE 0.094 | 310s
+20603.7s 104 [ 5.72h] qlord f2 ep 12/28 (stage 2) | ord=0.251 evid=0.382 qual=0.132 abst=0.802 graph=0.006 attn=0.002 | val QWK 0.7514 acc 0.796 ECE 0.092 | 312s
+20915.6s 105 [ 5.81h] qlord f2 ep 13/28 (stage 2) | ord=0.242 evid=0.371 qual=0.119 abst=0.778 graph=0.006 attn=0.001 | val QWK 0.7494 acc 0.798 ECE 0.093 | 312s
+21227.8s 106 [ 5.89h] qlord f2 ep 14/28 (stage 2) | ord=0.232 evid=0.352 qual=0.121 abst=0.756 graph=0.006 attn=0.001 | val QWK 0.7817 acc 0.808 ECE 0.063 | 312s
+21538.6s 107 [ 5.98h] qlord f2 ep 15/28 (stage 2) | ord=0.221 evid=0.332 qual=0.100 abst=0.726 graph=0.006 attn=0.001 | val QWK 0.7812 acc 0.820 ECE 0.067 | 311s
+21849.8s 108 [ 6.07h] qlord f2 ep 16/28 (stage 2) | ord=0.219 evid=0.329 qual=0.101 abst=0.725 graph=0.006 attn=0.001 | val QWK 0.7789 acc 0.796 ECE 0.082 | 311s
+22161.1s 109 [ 6.15h] qlord f2 ep 17/28 (stage 2) | ord=0.204 evid=0.307 qual=0.099 abst=0.695 graph=0.006 attn=0.001 | val QWK 0.7820 acc 0.787 ECE 0.081 | 311s
+22471.8s 110 [ 6.24h] qlord f2 ep 18/28 (stage 2) | ord=0.197 evid=0.293 qual=0.085 abst=0.665 graph=0.006 attn=0.001 | val QWK 0.7883 acc 0.805 ECE 0.048 | 310s
+22784.1s 111 [ 6.33h] qlord f2 ep 19/28 (stage 2) | ord=0.188 evid=0.271 qual=0.079 abst=0.632 graph=0.006 attn=0.001 | val QWK 0.7727 acc 0.798 ECE 0.053 | 312s
+23095.9s 112 [ 6.41h] qlord f2 ep 20/28 (stage 2) | ord=0.183 evid=0.266 qual=0.083 abst=0.626 graph=0.007 attn=0.001 | val QWK 0.7702 acc 0.796 ECE 0.047 | 312s
+23406.7s 113 [ 6.50h] qlord f2 ep 21/28 (stage 2) | ord=0.172 evid=0.243 qual=0.072 abst=0.585 graph=0.006 attn=0.001 | val QWK 0.7794 acc 0.813 ECE 0.037 | 310s
+23718.4s 114 [ 6.59h] qlord f2 ep 22/28 (stage 2) | ord=0.170 evid=0.240 qual=0.071 abst=0.582 graph=0.006 attn=0.001 | val QWK 0.7790 acc 0.793 ECE 0.053 | 311s
+24029.7s 115 [ 6.67h] qlord f2 ep 23/28 (stage 2) | ord=0.167 evid=0.233 qual=0.066 abst=0.564 graph=0.006 attn=0.001 | val QWK 0.7750 acc 0.783 ECE 0.058 | 311s
+24339.7s 116 [ 6.76h] qlord f2 ep 24/28 (stage 2) | ord=0.161 evid=0.222 qual=0.068 abst=0.543 graph=0.006 attn=0.001 | val QWK 0.7858 acc 0.807 ECE 0.036 | 310s
+24651.4s 117 [ 6.84h] qlord f2 ep 25/28 (stage 2) | ord=0.160 evid=0.216 qual=0.064 abst=0.537 graph=0.006 attn=0.001 | val QWK 0.7801 acc 0.805 ECE 0.044 | 311s
+24962.6s 118 [ 6.93h] qlord f2 ep 26/28 (stage 2) | ord=0.152 evid=0.202 qual=0.059 abst=0.505 graph=0.006 attn=0.001 | val QWK 0.7801 acc 0.806 ECE 0.036 | 311s
+24962.9s 119 [ 6.93h] qlord fold 2: early stopping (best epoch 18, QWK 0.7883)
+25235.2s 120 [ 7.01h] qlord fold 2 finished. best val QWK 0.7883 | test QWK 0.7987
+25235.7s 121 [ 7.01h] qlord: ensemble test QWK 0.8177 acc 0.8413 ECE 0.0297 | AURC native 0.0841 gate 0.0818
+25236.3s 122 
+25236.3s 123 === COMPARISON (test set, fold-ensemble; reference = qlord ) ===
+25236.3s 124 variant    group    QWK  QWK_CI_lo  QWK_CI_hi  dQWK_vs_qlord p_vs_qlord    acc  macro_f1    ECE  Brier
+25236.3s 125 qlord proposed 0.8177     0.7933     0.8360         0.0000       None 0.8413    0.6413 0.0297 0.2474
+25236.3s 126 
+25236.3s 127 === SELECTIVE PREDICTION / OOD ===
+25236.3s 128 variant  AURC_native  AURC_entropy  AURC_gate  QWK_at90cov_native  QWK_at90cov_gate  OOD_AUROC_native
+25236.3s 129 qlord       0.0841        0.0815     0.0818              0.8363            0.8457            0.9554
+25240.4s 130 [ 7.01h] eval finished. Everything is in /kaggle/working/qlord_state_eyepacs_main
+25240.4s 131 [ 7.01h] All requested parts finished.
+25245.8s 132 /usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+25245.8s 133 cells[i][c] = re.sub('\\\\\|', '|', cell)
+25246.0s 134 /usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+25246.0s 135 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+25246.8s 136 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+25246.9s 137 [NbConvertApp] Writing 107565 bytes to __notebook__.ipynb
+25249.5s 138 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+25250.3s 139 [NbConvertApp] Writing 643736 bytes to __results__.html
